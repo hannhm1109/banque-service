@@ -18,10 +18,10 @@ Un service web SOAP pour les opérations bancaires utilisant JAX-WS (Jakarta XML
 ## Opérations du Service Web
 
 # 1. Conversion (EUR vers DH)
-Endpoint : /conversion
-Méthode : conversion(double montant)
-Description : Convertit un montant d'euros en dirhams
-Exemple de requête SOAP :
+- Endpoint : /conversion
+- Méthode : conversion(double montant)
+- Description : Convertit un montant d'euros en dirhams
+- Exemple de requête SOAP :
 
 ![carbon (1)](https://github.com/user-attachments/assets/f5f67f76-ceb6-4487-9c74-b46d3f5365c8)
 
@@ -29,10 +29,10 @@ Exemple de requête SOAP :
 
 # 2. Consultation de Compte
 
-Endpoint : /getCompte
-Méthode : getCompte(int code)
-Description : Récupère les informations d'un compte spécifique
-Exemple de requête SOAP : 
+- Endpoint : /getCompte
+- Méthode : getCompte(int code)
+- Description : Récupère les informations d'un compte spécifique
+- Exemple de requête SOAP : 
 
 ![carbon (2)](https://github.com/user-attachments/assets/7841dcb4-1acc-4fe1-9c0c-1e0fcb131ef6)
 
@@ -40,10 +40,10 @@ Exemple de requête SOAP :
 
 # 3. Liste des Comptes
 
-Endpoint : /getComptes
-Méthode : getComptes()
-Description : Récupère la liste de tous les comptes disponibles
-Exemple de requête SOAP :
+- Endpoint : /getComptes
+- Méthode : getComptes()
+- Description : Récupère la liste de tous les comptes disponibles
+- Exemple de requête SOAP :
 
 ![carbon (3)](https://github.com/user-attachments/assets/b48fb375-352e-4e1b-ad61-e3904010ff89)
 
@@ -52,10 +52,10 @@ Exemple de requête SOAP :
 #Tests
 Les tests ont été effectués avec SoapUI :
 
-.Tests de conversion avec différents montants
-.Tests de récupération de comptes existants
-.Tests de récupération de la liste complète des comptes
-.Vérification des temps de réponse et de la stabilité du service
+- Tests de conversion avec différents montants
+- Tests de récupération de comptes existants
+- Tests de récupération de la liste complète des comptes
+- Vérification des temps de réponse et de la stabilité du service
 
 ## Structure des Fichiers IntelliJ
 
